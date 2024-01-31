@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="Username">Username: </label>
+            <input id="username" name="username" type="text"> <br>
+            <label for="Password">Password: </label>
+            <input type="password" name="pass"> <br>
+            <label for="Gender">Gender: </label>
+            <input type="radio" name="type" value="female" id="fem"> 
+            <label for="fem">Female</label>
+            <input type="radio" name="type" value="male" id="mal"> 
+            <label for="mal">Male</label>
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <label for="check1">Reading: </label>
+            <input type="checkbox" name="subject1" value="Reading" id="check1">
+            <label for="check2">Swimming: </label>
+            <input type="checkbox" name="subject2" value="Swimming" id="check2">
+        </fieldset>
+        <fieldset>
+            <legend>Location</legend>
+            <label for="country">Country: </label>
+            <select>
+                <option>USA</option>
+                <option>Canada</option>
+                <option>Mexico</option>
+                <option>Brazil</option>
+                <option>Argentina</option>
+            </select>
+        </fieldset>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
