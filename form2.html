@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action>
+        <label for="Fullname">Full Name*: </label> <br>
+        <input id="Fullname" name="fullname" type="text" placeholder="FirstName LastName"> <br>
+        <label for="address">Email address*: </label> <br>
+        <input name="address" type="email" placeholder="EMAIL_ADDRESS"> <br>
+        <label for="tour">Select Tour Package*: </label> <br>
+        <select>
+            <option>Goa</option>
+            <option>Adventour</option>
+            <option>City Sightseeing</option>
+        </select> <br>
+        <label for="date">Arrival date*: </label> <br>
+        <input type="date" name="enter date"> <br>
+        <label for="Persons">Number of persons*: </label> <br>
+        <input id="Persons" name="persons" type="text" placeholder="UNKNOWN_TYPE"> <br>
+        <label for="Question">What would you want to avail?*</label> <br>
+        <label for="check1">Boarding</label>
+        <input type="checkbox" name="subject1" value="Boarding" id="check1"> <br>
+        <label for="check1">Fooding</label>
+        <input type="checkbox" name="subject2" value="Fooding" id="check2"> <br>
+        <label for="check1">Sight seeing</label>
+        <input type="checkbox" name="subject3" value="Sight seeing" id="check3"> <br>
+        <label for="Discount">Discount coupon code:</label> <br>
+        <input id="Discount" name="discount" type="text" placeholder="UNKNOWN_TYPE"> <br>
+        <label for="Terms">Terms and conditions*</label> <br>
+        <input type="radio" name="type" value="agree" id="agr"> 
+        <label for="agr">I agree</label>
+        <input type="radio" name="type" value="disagree" id="disagr"> 
+        <label for="disagr">i disagree</label> <br>
+        <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>
